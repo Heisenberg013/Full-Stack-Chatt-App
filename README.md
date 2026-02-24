@@ -6,9 +6,6 @@ This project aims to provide a real-time chat experience that's both scalable an
 ## Detailed Workflow Description:
 
 
-![image](https://github.com/user-attachments/assets/f845a188-8e70-42f7-8577-30af38e83053)
-
-
   - **User Interaction:**
     - Users interact with the frontend application running in their browser. This includes actions like logging in, sending messages, and navigating through the chat interface.Frontend (React App):The frontend is responsible for rendering the user interface and handling user inputs.It communicates with the backend via HTTP requests (for RESTful APIs) and WebSocket connections (for real-time interactions).
 
@@ -164,35 +161,6 @@ docker run -d --network=full-stack --add-host=host.docker.internal:host-gateway 
 docker-compose logs -f
 ```
 
-### Once the backend and frontend containers are running, you can access the application in your browser:
-
-`Frontend: http://localhost`
-
-
-You can now interact with the real-time chat app and start messaging!
-
----
-
-
-
-### 🤝 Contributing
-
-
-We welcome contributions from DevOps & Developer of all skill levels! Here's how you can contribute:
-
-**Report bugs:** If you encounter any bugs or issues, please open an issue with detailed information.
-**Suggest features:** Have an idea for a new feature? Open an issue to discuss it with the community.
-**Submit pull requests:** If you have a fix or a feature you'd like to contribute, submit a pull request. Ensure your changes pass any linting or tests, if applicable.
-
-### 🌐 Join the Community
-
-We invite you to join our community of developers and contributors. Let's work together to build an amazing real-time chat application!
-
-* **Star this repository** to show your support
-* **Fork this repository** to contribute to the project
-* **Open an issue** to report bugs or suggest features
-* **Submit a pull request** to contribute code changes
-
 ## 🔮 Future Plans
 
 
@@ -205,19 +173,3 @@ This project is evolving, and here are a few exciting things on the horizon:
 
 ---
 
-## 📚 Project Snapshots:
-
-![Settings](frontend/public/settings.png)
-
-![chat](frontend/public/chat.png)
-
-![logout](/frontend/public/logout.png)
-
-![Login](/frontend/public/login.png)
-
-
-
-## 📜 License
-
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
